@@ -1,0 +1,31 @@
+# Build
+build/
+dist/
+package/
+
+# IDE
+.kiro/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Compiled
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Inno Setup output
+iscc_out.txt
+iscc_err.txt

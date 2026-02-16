@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Super Download</title></head>
+<body>
+<script>
+  // Extract the protocol URL from the hash and navigate to it
+  const protocolUrl = decodeURIComponent(location.hash.substring(1));
+  if (protocolUrl) {
+    window.location.href = protocolUrl;
+  }
+  // Close this tab after a short delay
+  setTimeout(() => window.close(), 3000);
+</script>
+<p style="font-family:sans-serif;color:#666;text-align:center;margin-top:40px;">
+  正在启动 Super Download...
+</p>
+</body>
+</html>

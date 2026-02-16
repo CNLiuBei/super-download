@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Super Download Bridge",
+  "version": "1.0.0",
+  "description": "将浏览器下载拦截并发送到 Super Download",
+  "permissions": ["downloads", "cookies", "tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
